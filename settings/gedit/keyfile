@@ -1,0 +1,35 @@
+[org/gnome/gedit/plugins]
+active-plugins=['spell', 'sort', 'quickopen', 'pythonconsole', 'modelines', 'filebrowser', 'docinfo']
+
+[org/gnome/gedit/preferences/ui]
+show-tabs-mode='auto'
+
+side-panel-visible=true
+
+bottom-panel-visible=false
+
+[org/gnome/gedit/plugins/filebrowser]
+tree-view=true
+root='file:///'
+
+virtual-root='file:///'
+
+[org/gnome/gedit/state/window]
+bottom-panel-size=78
+side-panel-active-page='GeditWindowDocumentsPanel'
+side-panel-size=200
+size=(900, 700)
+state=87168
+
+bottom-panel-active-page='GeditPythonConsolePanel'
+
+[org/gnome/gedit/preferences/editor]
+wrap-last-split-mode='word'
+background-pattern='none'
+highlight-current-line=false
+tabs-size=4
+insert-spaces=true
+use-default-font=false
+editor-font='Monospace 10'
+scheme='oblivion'
+display-overview-map=true
